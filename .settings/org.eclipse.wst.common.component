@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MovieRecommender_24Frames">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="MovieRecommender_24Frames"/>
+        <property name="java-output-path" value="/MovieRecommender_24Frames/build/classes"/>
+    </wb-module>
+</project-modules>
