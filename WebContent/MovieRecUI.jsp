@@ -61,7 +61,7 @@
       <div class="album text-muted">
         <div class="container">
             <div class="parent1" style="width:1000px;height:300px">
-            <s:form action="topkMovies">
+            <s:form action="topkMoviesrtScore">
     			<s:textfield label="movies number" name="userInputk"/>
     			<s:submit value="Submit"/> 
 			</s:form>

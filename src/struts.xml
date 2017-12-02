@@ -7,10 +7,25 @@
    <constant name = "struts.devMode" value = "true" />
    
    <package name = "movieRec" extends = "struts-default">
-     <action name = "topkMovies" 
+     <action name = "movieByScore" 
          class = "com.MovRec.Action.UserInputAction" 
          method = "execute">
-         <result name = "success">/MovieRecUI.jsp</result>
+         <result name = "success">/template.jsp</result>
+      </action>
+       <action name = "movieByName" 
+         class = "com.MovRec.Action.UserInputAction" 
+         method = "execute">
+         <result name = "success">/template.jsp</result>
+      </action>
+         <action name = "genreDirectorActorTag" 
+         class = "com.MovRec.Action.GenreDirectorActorTagAction" 
+         method = "execute">
+         <result name = "success">/genreDirectorActorTag.jsp</result>
+      </action>
+        <action name = "popularActorDirector" 
+         class = "com.MovRec.Action.PopularActorDirectorAction" 
+         method = "execute">
+         <result name = "success">/popularDirectorActor.jsp</result>
       </action>
    </package>
 </struts>

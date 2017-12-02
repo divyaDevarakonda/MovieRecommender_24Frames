@@ -9,7 +9,7 @@
    <display-name>Struts 2</display-name>
    
    <welcome-file-list>
-      <welcome-file>MovieRecUI.jsp</welcome-file>
+      <welcome-file>template.jsp</welcome-file>
    </welcome-file-list>
    
    <filter>
